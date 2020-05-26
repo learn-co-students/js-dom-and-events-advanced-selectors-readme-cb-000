@@ -15,7 +15,7 @@ describe('Selectors', () => {
   });
 
   it('divSelector() should return two divs', function() {
-    expect(divSelector().length).toBe(2);
+    expect(divSelector().length).toBe(3);
     expect(divSelector()[0].tagName).toEqual("DIV");
   });
 
